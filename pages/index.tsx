@@ -1,10 +1,12 @@
-export default function home() {
+import { Flex, Text } from "@chakra-ui/react";
+import Content from "./components/Content";
+import Header from "./components/Header";
+
+export default function Home() {
   return (
     <>
-      <h1>ugulino</h1>
-      <h1>teste</h1>
-      <h1>teste2</h1>
-      <h2>teste3</h2>
+      <Header />
+      <Content />
     </>
   );
 }
